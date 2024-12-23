@@ -6,11 +6,10 @@ const Navbar = () => {
 //   const [visible, setVisible] = useState(false);
 
   return (
-    <div className="px-[2vw] bg-[#252F38] " >
+    <div className="px-[2vw] bg-[#112435] " >
       <div className=" flex items-center justify-between py-5 font-medium ">
         <Link to="/">
-          <h1 className="text-white font-bold text-5xl">SunSolarPower</h1>{" "}
-          <h1 className="text-orange-600 font-bold text-3xl ">Solution</h1>
+          <img className="w-80" src="./images/logosolar.png" alt="" />
         </Link>
         {/* <link to='/' <img src={assets.logo} className='w-36' alt=""/> </Link> */}
         <ul className="hidden sm:flex gap-5 text-4xl text-white">

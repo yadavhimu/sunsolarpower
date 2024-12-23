@@ -3,9 +3,9 @@ import React from 'react'
 const MidSection = () => {
   return (
     <div className='px-[2vw] bg-[#EEEBE7]'>
-      <div className='flex mt-10'>
+      <div className='lg:flex mt-10'>
         <div className='w-full mt-20'>
-        <p className='text-5xl font-bold text-[#252F38]'>Solar Panel Installation for Residential Homes</p>
+        <p className='text-3xl lg:text-5xl font-bold text-[#252F38]'>Solar Panel Installation for Residential Homes</p>
         <ul className='list-disc text-3xl mt-10 p-8'>
             <li className=''>
             We can install rooftop solar panels on shingle, metal, tile, and flat roofs
@@ -21,9 +21,9 @@ const MidSection = () => {
         </div>
       </div>
       
-      <div className='flex mt-10'>
+      <div className='lg:flex mt-10'>
         <div className='w-full mt-10'>
-        <p className='text-5xl font-bold text-[#252F38]'>Home Battery Backup Systems That We Offer</p>
+        <p className='text-3xl lg:text-5xl font-bold text-[#252F38]'>Home Battery Backup Systems That We Offer</p>
         <ul className='list-disc text-3xl mt-10 p-8'>
             <li>Tesla Powerwall backup power system — Now Installing the Tesla Powerwall 3</li>
         </ul>
@@ -33,9 +33,9 @@ const MidSection = () => {
         </div>
       </div>
 
-      <div className='flex mt-10'>
+      <div className='lg:flex mt-10'>
         <div className='w-full'>
-          <p  className='text-5xl font-bold text-[#252F38]'>Our Service Department is Here For You</p>
+          <p  className='text-3xl lg:text-5xl font-bold text-[#252F38]'>Our Service Department is Here For You</p>
           <ul  className='list-disc text-3xl p-8'>
             <li>Get lifetime service and monitoring of the residential solar panel systems we install</li>
             <li className='mt-4'>We offer de-installation and re-installation for roof repairs and remodels</li>
