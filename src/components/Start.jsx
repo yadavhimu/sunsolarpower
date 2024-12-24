@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Start = () => {
   return (
     <div className='px-[2vw] '>
-      <div className='w-full lg:flex mt-20'>
+      <div className='w-full lg:flex lg:mt-20'>
         <div className='w-full p-4'>
             <p className='text-3xl lg:text-7xl font-bold text-[#252F38]'>Residential Solar</p>
             <p className='text-3xl lg:text-7xl font-bold text-[#252F38]'>Panel Installation</p>
