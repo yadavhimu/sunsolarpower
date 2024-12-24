@@ -16,7 +16,7 @@ const MidSection = () => {
             <li className='mt-4'>Our installation services include the Complete Freedom warranty</li>
         </ul>
         </div>
-        <div className='mt-10 shadow-2xl'>
+        <div className='mt-10'>
             <img src="./images/solar2.webp" alt="home" />
         </div>
       </div>
