@@ -26,13 +26,13 @@ const Navbar = () => {
             <p>Products</p>
             <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to="/resources"
             className="flex flex-col items-center gap-1 hover:text-orange-600"
           >
             <p>Resources</p>
             <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to="/about"
             className="flex flex-col items-center gap-1 hover:text-orange-600"
