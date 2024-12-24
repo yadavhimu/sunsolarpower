@@ -16,7 +16,7 @@ const Start = () => {
             </Link>
 
         </div>
-        <div className=''>
+        <div className='w-full'>
             <img className='shadow-2xl' src="./images/solar1.jpg" alt="home images" />
         </div>
       </div>
