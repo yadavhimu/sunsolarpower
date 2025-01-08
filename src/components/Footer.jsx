@@ -33,16 +33,21 @@ const Footer = () => {
         <div>
           <p className="text-2xl font-bold mb-5 text-white">Legal</p>
           <ul className="flex flex-col gap-1 text-white text-xl">
-            <li className="text-md">Privacy Policy</li>
+            <Link to={"term"}>
             <li className="text-md">Terms and Condition</li>
+            </Link>
+            <Link to={"refund"}>
             <li className="text-md">Return and Refund Policy</li>
+            </Link>
           </ul>
         </div>
         <div>
           <p className="text-2xl font-bold mb-5 text-white">Contact Detail</p>
           <ul className="flex flex-col gap-1 text-white text-xl">
             <li className="text-xl font-medium text-orange-600"> Phone :</li>
-            <li className="text-md">+91 9569526179</li>
+            <li className="text-md">+91 9236113863</li>
+            <li className="text-xl font-medium text-orange-600"> Email:</li>
+            <li className="text-md">Kapish2293@gmail.com</li>
             <li className="text-xl font-medium text-orange-600">Address :</li>
             <li className="text-md">
               123/419 A Saresh Bagh Kanpur,{" "}
