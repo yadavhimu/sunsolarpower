@@ -19,16 +19,13 @@ const Footer = () => {
             <Link to={"/"}>
               <li className="text-md">Home</li>
             </Link>
-            <Link to={""}>
+            <Link to={"products"}>
               <li className="text-md">Products</li>
             </Link>
-            <Link to={""}>
-              <li className="text-md">Resources</li>
-            </Link>
-            <Link to={""}>
+            <Link to={"about"}>
               <li className="text-md">About</li>
             </Link>
-            <Link to={""}>
+            <Link to={"contact"}>
               <li className="text-md">Contact Us</li>
             </Link>
           </ul>
@@ -58,7 +55,7 @@ const Footer = () => {
         <hr />
         <p className="py-5 text-lg text-center text-white">
           {" "}
-          Copyright 2024@  - All Right Reserved.
+          Copyright 2024@sunsolarpower solutions  - All Right Reserved.
         </p>
       </div>
     </div>
